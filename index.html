@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Formulario</title>
+</head>
+<body>
+
+    <!-- Contenedor -->
+    <div class="container">
+
+        <!-- Encabezado del formulario -->
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+
+        <form action="" class="form" id="form">
+            <!-- Usuario -->
+            <div class="gform" id="gnombre">
+                <label for="nombre" class="form_label">Nombre</label>
+                <input type="text" name="nombre" id="nombre" >
+                <p></p>
+
+            </div>
+
+            <!-- Email -->
+            <div class="gform" id="gemail">
+                <label for="email" class="form_label">Email</label>
+                <!-- En vez de poner el siguiente input tipo email, lo ponemos tipo text para que sea js quien valide y no html -->
+                <input type="text" name="email" id="email">
+                <p></p>
+            </div>
+
+            <!-- Clave -->
+            <div class="gform" id="gpass">
+                <label for="pass" class="form_label">Clave</label>
+                <input type="password" name="pass" id="pass">
+                <p></p>
+            </div>
+
+            <!-- Clave2 -->
+            <div class="gform" id="gpass2">
+                <label for="pass2" class="form_label">Confirma tu clave</label>
+                <input type="password" name="pass2" id="pass2">
+                <p></p>
+            </div>
+
+            <!-- Enviar -->
+            <div class="gform gform-enviar">
+                <button type="submit" class="f-btn" id="submit-btn">Enviar</button> 
+            </div>
+        </form>
+    </div>
+</body>
+</html>

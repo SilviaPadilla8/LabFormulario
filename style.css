@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #242933;
+}
+
+.container{
+    width: 350px;
+    padding: 25px 30px 0px 30px;
+    background-color: #2F3644;
+    color: #AAB7DE;
+    border-radius: 5px;
+    border: #383F52  2px solid;
+}
+
+.header{
+    margin-bottom: 20px;
+}
+
+.gform{
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 70%;
+}
+
+input{
+    width: 100%;
+    font-family: inherit;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: #AAB7DE 2px solid;
+}
+
+.f-btn{
+    color: white;
+    font-weight: 300;
+    background-color: #6C63FF;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: #232149 2px solid;
+    margin-top: 10px;
+}
+
+
+.form-error p{
+    font-size: 10px;
+    color: #CA4E4F;
+    margin-bottom: 10px;
+}
+
+.form-success p{
+    display: none;
+}
+
+
+.form-success input{
+    background-image: url(images/success-icon.svg);
+    background-size: 5%;
+    background-position: 260px;
+    background-repeat: no-repeat;
+    border: #59CF6D 2px solid;
+    margin-bottom: 20px;
+}
+
+.form-error input{
+    background-image: url(images/error-icon.svg);
+    background-size: 5%;
+    background-position: 260px;
+    background-repeat: no-repeat;
+    border: #CA4E4F 2px solid;
+}
